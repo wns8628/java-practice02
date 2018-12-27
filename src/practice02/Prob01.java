@@ -15,6 +15,5 @@ public class Prob01 {
 			System.out.println( MONEYS[i] + "원 " + money/MONEYS[i] + "개");
 			money %= MONEYS[i];
 		}
-		
 	}	
 }
