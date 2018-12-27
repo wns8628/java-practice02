@@ -23,7 +23,7 @@ public class Prob05 {
 			   System.out.print(inc + ">>");
 			   int user_num = scanner.nextInt();
 				
-			   
+			   //
 			   if(user_num == target_num) {
 				   System.out.println("정답!");
 				   break;
