@@ -13,18 +13,19 @@ public class Prob03 {
 		printCharArray(c);
 	}
 	
-	public static void replaceSpace(char a[]) {
-
-		String b = new String(a);    
-	    a = b.replace(' ', ',').toCharArray();
-	    
+	public static void replaceSpace(char a[]){
+//		String b = new String(a);    
+//	    a = b.replace(' ',',').toCharArray();
+//	    System.out.println(a);
+		for( int i = 0; i < a.length; i++ ) { 
+ 			if(a[i] == ' '){ 
+ 				a[i] = ','; 
+ 			}
+		} 
 	}
 	   
     public static void printCharArray(char a[]) {
-    	for(int i=0; i<a.length; i++) {
-    		System.out.print(a[i]);
-    	}
-    	System.out.println();
+			System.out.println(a);	
     }
  
 }
